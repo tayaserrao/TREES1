@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+}
+
+h1{
+  font-family: sans-serif;
+  color: white;
+}
+
+#ONE{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/83/Frogner_Park_Trees.JPG);
+ height: 400px;
+ width: 1200px;
+  border: 1px solid black;
+}
+
+li {
+  background-color: green;
+
+}
+
+
+@media all and (max-width: 450px){
+  #ONE{
+    background-image: url(http://blogs.rj.org/rac/files/2015/01/1892173_71a51088.jpg);
+  }
+}
